@@ -1,0 +1,9 @@
+[alias] diff = diff --ignore-space-change
+**/.idea
+**/.vscode
+**/*.iml
+**/_ignored/
+
+**/node_modules
+
+**/package-lock.json

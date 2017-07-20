@@ -1,0 +1,26 @@
+{
+    "name": "chat_history",
+    "version": "0.0.1",
+    "license": "UNLICENSED",
+    "config": {
+        "comment": "refer to .npmrc_$envtype files for config vars"
+    },
+    "scripts": {},
+    "watch": {
+        "devBuild": {
+            "patterns": [
+                "source"
+            ],
+            "extensions": "js,html,png,css"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rushkeldon/chat_history.git"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "less": "x.x.x",
+        "typescript": "x.x.x"
+    }
+}
