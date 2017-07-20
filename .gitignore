@@ -1,5 +1,7 @@
 [alias] diff = diff --ignore-space-change
-**/.idea
+
+.idea
+**/.idea/*.*
 **/.vscode
 **/*.iml
 **/_ignored/
