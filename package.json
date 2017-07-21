@@ -9,10 +9,13 @@
         "copy": "cpx 'src/**/*.{map,js,json,css,png,html,jpeg}' dist -p",
         "preinstall": "rm -f package-lock.json"
     },
-    "dependencies": {},
+    "dependencies": {
+        "lodash": "x.x.x"
+    },
     "devDependencies": {
         "less": "x.x.x",
         "typescript": "x.x.x",
-        "cpx": "x.x.x"
+        "cpx": "x.x.x",
+        "@types/lodash": "x.x.x"
     }
 }
