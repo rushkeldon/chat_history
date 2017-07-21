@@ -1,26 +1,18 @@
 {
     "name": "chat_history",
+    "description": "A simple way to display a chat history",
     "version": "0.0.1",
     "license": "UNLICENSED",
-    "config": {
-        "comment": "refer to .npmrc_$envtype files for config vars"
-    },
-    "scripts": {},
-    "watch": {
-        "devBuild": {
-            "patterns": [
-                "source"
-            ],
-            "extensions": "js,html,png,css"
-        }
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/rushkeldon/chat_history.git"
+    "scripts": {
+        "build": "npm run clean && npm run copy",
+        "clean": "rm -rf dist && mkdir dist",
+        "copy": "cpx 'src/**/*.{map,js,json,css,png,html,jpeg}' dist -p",
+        "preinstall": "rm -f package-lock.json"
     },
     "dependencies": {},
     "devDependencies": {
         "less": "x.x.x",
-        "typescript": "x.x.x"
+        "typescript": "x.x.x",
+        "cpx": "x.x.x"
     }
 }
