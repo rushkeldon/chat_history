@@ -1,5 +1,5 @@
 function get(url, callback) {
-    var xmlHttp = new XMLHttpRequest();
+    let xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = requestHandler;
     xmlHttp.open('GET', url);
     xmlHttp.send();
@@ -19,3 +19,4 @@ function get(url, callback) {
 function main() {
 }
 main();
+//# sourceMappingURL=chat_history.js.map
